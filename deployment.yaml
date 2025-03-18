@@ -9,7 +9,7 @@ metadata:
   name: my-app
   namespace: my-app-ns
 spec:
-  replicas: 1
+  replicas: 3 #new
   selector:
     matchLabels:
       app: my-app
